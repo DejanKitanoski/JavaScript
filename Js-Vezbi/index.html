@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon List</title>
+  <link rel="stylesheet" href="/js-5-vezbi/styless.css">
+</head>
+<body>
+  <h1>Pokémon List</h1>
+  <hr>
+  <input type="search" id="pokemonName" placeholder="Search Pokémon by name..." value="" />
+  <button onclick="searchPokemon()">Search Pokémon</button>
+  <hr>
+  <div id="pokemon-card" style="display: none;">
+    <h3 id="pokemon-title"></h3>
+    <img id="pokemon-img" src="" alt="Pokemon Sprite" style="width: 300px;" />
+  </div>
+  <hr>
+  <div id="pokemon-list"></div>
+  <script src="script.js"></script>
+</body>
+</html>
