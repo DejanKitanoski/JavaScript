@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Лични податоци</h1>
+    <div class="container">
+        <label >Name</label>
+        <input id="name" type="text">
+        <label >Last name</label>
+        <input id="lastname" type="text" required>
+        <label >EMBG</label>
+        <input id="EMBG" type="number"  required>
+        <label >Email</label>
+        <input id="email" type="email" value="0">
+        <!-- <button id="brisi">Delete</button> -->
+<button onclick="addinformation()"> Add Informacion </button>
+    </div>
+    <table id="card" border="1" style="width: 100%">
+        <thead>
+            <tr>
+          <th>Name</th>
+          <th>Lastname</th>
+          <th>EMBG</th>
+          <th>Email</th>
+          <th>Delete</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+      </table> 
+    <script src="script.js"></script>
+</body> 
+</html>
